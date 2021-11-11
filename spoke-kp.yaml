@@ -15,6 +15,7 @@ info:
     team:
     - imProving Agent
     biolink-version: 2.1.0
+    infores: "infores:spoke"
     externalDocs:
       description: Repository
       url: https://github.com/suihuanglab/spoke-kp
@@ -29,6 +30,7 @@ externalDocs:
 servers:
 - description: dev
   url: https://spokekp.healthdatascience.cloud/api/v1.2/
+  x-maturity: production
 tags:
 - description: Retreive the meta knowledge graph representation of this TRAPI web
     service.
