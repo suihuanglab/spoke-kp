@@ -2,7 +2,7 @@ openapi: 3.0.1
 info:
   description: SPOKE KP for TRAPI 1.3 - an NIH NCATS Knowledge Provider exposing UCSF's SPOKE
   version: 1.3.0
-  title: SPOKE KP for TRAPI 1.2
+  title: SPOKE KP for TRAPI 1.3
   contact:
     email: brett.smith@isbscience.org
     x-role: responsible developer
@@ -29,8 +29,8 @@ info:
     test_data_location: https://github.com/suihuanglab/spoke-kp/tree/main/test-data
 servers:
   - url: https://spokekp.healthdatascience.cloud/api/v1.3/
-    description: dev
-    x-maturity: dev
+    description: development-1.3
+    x-maturity: development
 externalDocs:
   description: >-
     Documentation for the NCATS Biomedical Translator Reasoners web services
@@ -100,7 +100,7 @@ paths:
                       }
                     }
                   }
-                },
+                }
               }
       responses:
         '200':
