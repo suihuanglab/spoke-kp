@@ -29,7 +29,7 @@ info:
 servers:
   - url: https://spokekp.healthdatascience.cloud/api/v1.4/
     description: dev
-    x-maturity: dev
+    x-maturity: development
 externalDocs:
   description: >-
     Documentation for the NCATS Biomedical Translator Reasoners web services
