@@ -30,9 +30,6 @@ servers:
   - url: https://spokekp.transltr.io/api/v1.4/
     description: ITRB Production server
     x-maturity: production
-  - url: https://spokekp.test.transltr.io/api/v1.4/
-    description: ITRB Test server
-    x-maturity: testing
 externalDocs:
   description: >-
     Documentation for the NCATS Biomedical Translator Reasoners web services
