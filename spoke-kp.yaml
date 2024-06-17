@@ -27,6 +27,9 @@ info:
     rate_limit: 20
     test_data_location: https://github.com/suihuanglab/spoke-kp/tree/main/test-data
 servers:
+  - url: https://spokekp.transltr.io/api/v1.5/
+    description: ITRB Production server
+    x-maturity: production
   - url: https://spokekp.test.transltr.io/api/v1.5/
     description: ITRB Test server
     x-maturity: testing
