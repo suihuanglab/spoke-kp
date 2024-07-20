@@ -19,7 +19,7 @@ info:
       description: Repository
       url: https://github.com/suihuanglab/spoke-kp
   x-trapi:
-    version: 1.5.0-beta
+    version: 1.5.0
     asyncquery: false
     operations:
       - lookup
